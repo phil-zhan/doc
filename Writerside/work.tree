@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="work"
+                 name="Work"
+                 start-page="Daily.md">
+
+    <toc-element topic="Daily.md">
+        <toc-element topic="Elasticsearch.md"/>
+        <toc-element topic="Hadoop.md"/>
+        <toc-element topic="Starter.md"/>
+        <toc-element topic="Shell.md"/>
+        <toc-element topic="Nginx.md"/>
+        <toc-element topic="Other.md"/>
+        <toc-element topic="CPU标高.md"/>
+    </toc-element>
+    <toc-element topic="Default-topic.md"/>
+</instance-profile>
