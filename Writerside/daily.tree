@@ -15,6 +15,7 @@
     </toc-element>
     <toc-element topic="phil.md">
         <toc-element topic="Nginx.md"/>
+        <toc-element topic="Git.md"/>
         <toc-element topic="百万级.md"/>
         <toc-element topic="CPU标高.md"/>
     </toc-element>
