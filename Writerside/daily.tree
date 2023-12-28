@@ -18,5 +18,6 @@
         <toc-element topic="Git.md"/>
         <toc-element topic="百万级.md"/>
         <toc-element topic="CPU标高.md"/>
+        <toc-element topic="内存标高.md"/>
     </toc-element>
 </instance-profile>

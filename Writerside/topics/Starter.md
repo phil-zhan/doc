@@ -147,3 +147,29 @@ LOAD DATA LOCAL INPATH '${file_dir}/*' OVERWRITE TABLE tmp_zfw.tmp_test;
 -- 支持星号的通配符，也支持绝对路径【HDFS路径】
 LOAD DATA INPATH '${file_dir}/*' OVERWRITE TABLE tmp_zfw.tmp_test;
 ```
+
+
+## hive常见报错 {id="hive_4"}
+##### 1. 空指针 {id="1_1"}
+```SQL
+
+-- 该SQL执行会报空指针
+SELECT *
+FROM ods_log.dbapp_sdc_threat_intelligence_api_log_dt
+WHERE dt = '20231221'
+  and pdt_name = 'sdb_portal_site'
+  and array_contains(threat_type, 'WhiteList')
+  and query_ip in (SELECT query_ip
+                   FROM (SELECT query_ip, count(1) as num
+                         FROM ods_log.dbapp_sdc_threat_intelligence_api_log_dt
+                         WHERE dt = '20231221'
+                           and pdt_name = 'sdb_portal_site'
+                         group by query_ip
+                         order by num desc) tab_1)
+                         
+-- 添加参数能解决                 
+set hive.auto.convert.join=false;
+set hive.ignore.mapjoin.hint=false;
+
+        
+```
