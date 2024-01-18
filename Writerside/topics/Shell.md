@@ -37,7 +37,7 @@ elasticdump \
   --limit 10000 \
   --output=data.json \
   --type=data \
-  --size 100000 \
+  --size 10000 \
   --json-lines
 ```
 
