@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="daily"
-                  name="Daily" start-page="phil-CPU标高.md">
+                  name="发哥" start-page="phil-CPU标高.md">
 
     <toc-element topic="phil.md">
         <toc-element topic="phil-Scala.md">

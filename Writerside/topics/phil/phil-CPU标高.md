@@ -24,8 +24,7 @@
     ```Shell
     # 查看具体程序信息
     jstack <PID> | grep <十六进制的线程ID> -A 20
-   
+      
     ### jstack 可以查看线程信息
     ```
-   
    
