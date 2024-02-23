@@ -1,6 +1,4 @@
-# Hadoop
-
-
+# work-Hadoop
 
 ### 大数据hdfs命令
 
@@ -47,8 +45,8 @@ hdfs dfsadmin -setSpaceQuota 1000G /home
 <!-- ./sbin/hadoop-daemons.sh stop datanode -->
 <!-- ./sbin/hadoop-daemons.sh start datanode -->
 <property>
-  <name>dfs.datanode.du.reserved</name>
-  <value>21474836480</value>
+    <name>dfs.datanode.du.reserved</name>
+    <value>21474836480</value>
 </property>
 
 

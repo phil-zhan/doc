@@ -1,4 +1,4 @@
-# CPU标高
+# phil-CPU标高
 
 ## 生产CPU标高问题排查
 
@@ -13,13 +13,13 @@
     # 找到对应线程
     ps H -eo pid,tid,%cpu | grep <PID>
     ```
-   
-3. 线程ID转十六进制    
+
+3. 线程ID转十六进制
     ```Shell
     # 线程ID转十六进制 
     printf '0x%x\n' <TID>
     ```
-   
+
 4. 查看具体程序信息
     ```Shell
     # 查看具体程序信息

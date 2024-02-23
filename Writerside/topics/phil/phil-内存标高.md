@@ -1,20 +1,22 @@
-# 内存标高
-
-
+# phil-内存标高
 
 ### 1. 查看标高进程
+
 ```Shell
 # 直接执行TOP命令【大写的 M 可以按照内存排序】
 top
 ```
 
 ### 2. jstat查看jvm信息
+
 ##### 2.1 gc
+
 ```Shell
 
 ### 查看GC当前情况
 jstat -gc <PID>
 ```
+
 以下是一次输出示例，中文注释是单独加上去的
 
 | S0C                 | S1C                 | S0U                   | S1U                   | EC            | EU              | OC           | OU             | MC               | MU                  | CCSC         | CCSU           | YGC          | YGCT              | FGC         | FGCT            | CGC      | CGCT           | GCT          |
@@ -40,11 +42,13 @@ jstat -gc <PID>
   的算法和策略不同，所以它们的速度和回收的对象也是不同的。开发者需要根据具体的应用场景来选择哪种GC策略更适合应用程序的需求，以达到更好的性能。
 
 ##### 2.2 gc capacity
+
 ```Shell
 
 ### 查看GC三代中的容量情况
 jstat -gccapacity <PID>
 ```
+
 以下是一次输出示例，中文注释是单独加上去的
 
 | 参数    | 备注                  | Value      |
@@ -70,10 +74,12 @@ jstat -gccapacity <PID>
 | CGC   | 卡表垃圾回收次数            | 25164      |
 
 ##### 2.3 gc util
+
 ```Shell
 ### 三代空间的使用统计
 jstat -gcutil <PID>
 ```
+
 以下是一次输出示例，中文注释是单独加上去的
 
 | 参数   | 注释            | Value    |
@@ -93,7 +99,7 @@ jstat -gcutil <PID>
 | GCT  | 总垃圾回收时间       | 685.860秒 |
 
 > Young GC、Full GC和总GC是JVM进行垃圾回收时的三种不同类型：
-{style="note"}
+> {style="note"}
 
 - 年轻代垃圾回收（Young GC）：年轻代垃圾回收主要处理新生代（Young Generation）中的垃圾对象。一般情况下，新分配的对象会被分配到Eden
   空间，当 Eden 空间不足时，就会触发一次年轻代垃圾回收。在回收过程中，不仅会清理 Eden
@@ -106,10 +112,12 @@ jstat -gcutil <PID>
   CPU 资源，对系统有一定的负载压力。卡表垃圾回收的目标是减少垃圾回收的停顿时间，提高应用程序的性能和响应速度。
 
 ##### 2.4 gc new
+
 ```Shell
 ### 年轻代的对象信息
 jstat -gcnew <PID>
 ```
+
 以下是一次输出示例，中文注释是单独加上去的
 
 | 参数   | 注释              | Value       |
@@ -128,10 +136,8 @@ jstat -gcnew <PID>
 
 ### 3. jstack 查看线程信息
 
-
-
-
 ### 4. jmap 查看堆内存信息
+
 ```Shell
 ## 查看最大的对象实例
 jmap -histo <PID> | head -10

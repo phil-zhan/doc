@@ -1,6 +1,7 @@
-# Shell
+# work-Shell
 
 ## 操作防火墙
+
 ```shell
 # 开放端口
 firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.23.30.7" port port="8042" protocol="tcp" accept' && firewall-cmd --reload && firewall-cmd --list-all
@@ -11,7 +12,7 @@ firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.
 firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.11.47.212"   accept' && firewall-cmd --reload && firewall-cmd --list-all
 
 # 开放CIDR
-firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.50.25.0/24" accept'  && firewall-cmd --reload && firewall-cmd --list-all
+firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.23.30.0/24" accept'  && firewall-cmd --reload && firewall-cmd --list-all
 
 ```
 
@@ -55,7 +56,6 @@ elasticdump \
 # searchBody 通过查询来限制数据范围:--searchBody={\"query\":{\"terms\":{\"ioc\":[\"27.157.129.180\",\"27.221.6.108\"]}}}
 ```
 
-
 ## 在文件夹下搜索内容
 
 ```shell
@@ -70,14 +70,11 @@ grep -r -e '"d{"ip"' ./
 # 可以用  **sysstat** 工具
 ```
 
-
 ## 查看目录大小
 
 ```shell
 du  -sh   目录名称
 ```
-
-
 
 ## linux远程挂载
 
@@ -173,8 +170,6 @@ ssh -fND 10.50.25.68:1081 root@172.16.5.135
 ssh -fND 10.50.25.68:1080 root@127.0.0.1
 ```
 
-
-
 ## tinyproxy 代理
 
 [代理配置详解](https://developer.aliyun.com/article/1009640)
@@ -200,8 +195,6 @@ $ service tinyproxy start
 # 卸载
 $ yum erase tinyproxy
 ```
-
-
 
 ### 编译安装1.10.0
 
@@ -297,6 +290,7 @@ $ yum erase tinyproxy
       ```
 
 ## 查看mysql的binlog日志
+
 ```Shell
 # 查看 binlog 日志相关参数
 show variables like  'binlog%';
@@ -315,19 +309,17 @@ mysqlbinlog --no-defaults --base64-output=decode-rows -v -v mysql-bin.000008 |aw
 
 ```
 
-
 ## 查看mysql的锁表情况
+
 ```sql
 # 显示表的使用情况
 show OPEN TABLES where In_use > 0;
 
 ```
 
-
 ## ftp服务器搭建
+
 [阿里教程](https://help.aliyun.com/document_detail/60152.html?spm=5176.21213303.J_6704733920.8.7b2f53c9y3JtYO&scm=20140722.S_help%40%40%E6%96%87%E6%A1%A3%40%4060152._.ID_help%40%40%E6%96%87%E6%A1%A3%40%4060152-RL_%E6%90%AD%E5%BB%BAftp%E6%9C%8D%E5%8A%A1%E5%99%A8-LOC_main-OR_ser-V_2-RK_rerank-P0_0)
-
-
 
 ## 各种请求挂代理
 
@@ -339,8 +331,6 @@ wget -e use_proxy=on -e "HTTPS_PROXY=http://root:8.208.80.213fKjcd3-6FD6-4C31-9Z
 curl -x http://root:8.208.80.213fKjcd3-6FD6-4C31-9ZZG3-fNM4345f62ea@8.208.80.213:9999 https://www.baidu.com
 
 ```
-
-
 
 ## k8s操作
 

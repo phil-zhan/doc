@@ -1,6 +1,4 @@
-#Hive
-
-
+# work-Hive
 
 ## hive导出文件 {id="hive_1"}
 
@@ -24,8 +22,6 @@ STORED AS TEXTFILE
 ---- step3: 用export导出【这是hive的关键字】【该语句尽可能用 hive -e "sql" 去执行。不要用hue执行】
 export table tmp_zfw.tmp_111 to '/home/zfw/20230220/test1';
 ```
-
-
 
 ## hive参数 {id="hive_2"}
 
@@ -117,15 +113,17 @@ create function default.xxxfunc as 'cn.xxx.XxxFunc' using jar 'hdfs:///upload/ud
 reload default.xxxfunc;
 ```
 
-
 ## 文件导入hive表
+
 ##### 1. 服务器文件
+
 ```Shell
 # 1、服务器文件，每行一条记录，属性之间用逗号分割【也可以是其他分割符】，将所有文件放到同一个目录下
 
 ```
 
 ##### 2. 创建hive表
+
 ```SQL
 CREATE TABLE tmp_zfw.tmp_test(
     col1 string,
@@ -139,6 +137,7 @@ MAP KEYS TERMINATED BY ':';
 ```
 
 ##### 3. 数据导入hive表
+
 ```SQL
 -- 支持星号的通配符，也支持绝对路径【服务器路径】
 LOAD DATA LOCAL INPATH '${file_dir}/*' OVERWRITE TABLE tmp_zfw.tmp_test;
@@ -148,9 +147,10 @@ LOAD DATA LOCAL INPATH '${file_dir}/*' OVERWRITE TABLE tmp_zfw.tmp_test;
 LOAD DATA INPATH '${file_dir}/*' OVERWRITE TABLE tmp_zfw.tmp_test;
 ```
 
-
 ## hive常见报错 {id="hive_4"}
+
 ##### 1. 空指针 {id="1_1"}
+
 ```SQL
 
 -- 该SQL执行会报空指针

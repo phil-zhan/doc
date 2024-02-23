@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="552336c9">
+        <description>Created after removal of "This is the first topic" from Daily</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="31c63d7">
+        <description>Created after removal of "Daily" from Daily</description>
+        <accepts>Daily.html</accepts>
+    </rule>
+    <rule id="337d6221">
+        <description>Created after removal of "Empty MD TopicEmpty MD TopicEmpty MD TopicEmpty MD Topic" from Daily
+        </description>
+        <accepts>Empty-MD-TopicEmpty-MD-TopicEmpty-MD-TopicEmpty-MD-Topic.html</accepts>
+    </rule>
+</rules>
