@@ -9,7 +9,7 @@ firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.
 # 开放IP
 firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.23.30.7"   accept' && firewall-cmd --reload && firewall-cmd --list-all
 
-firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.11.47.212"   accept' && firewall-cmd --reload && firewall-cmd --list-all
+firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.11.47.50"   accept' && firewall-cmd --reload && firewall-cmd --list-all
 
 # 开放CIDR
 firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.23.30.0/24" accept'  && firewall-cmd --reload && firewall-cmd --list-all

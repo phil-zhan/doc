@@ -27,10 +27,16 @@
         <toc-element topic="interview-big_data.md"/>
         <toc-element topic="interview-java.md">
             <toc-element topic="interview-java-Java17新特性.md">
-                <toc-element topic="interview-java-Java17新特性-01_Java17新特性_文本块.md">
-                </toc-element>
+                <toc-element topic="interview-java-Java17新特性-01_Java17新特性_文本块.md"/>
                 <toc-element topic="interview-java-Java17新特性-02_Java17新特性_switch表达式.md"/>
                 <toc-element topic="interview-java-Java17新特性-03_Java17新特性_record关键字.md"/>
+                <toc-element topic="interview-java-Java17新特性-04-Java17新特性-密封类-sealed-class.md"/>
+                <toc-element topic="interview-java-Java17新特性-05-Java17新特性-instanceof模式匹配.md"/>
+                <toc-element topic="interview-java-Java17新特性-06-Java17新特性-Helpful-NullPointerExceptions.md"/>
+                <toc-element topic="interview-java-Java17新特性-07-Java17新特性-日期周期格式化.md"/>
+                <toc-element topic="interview-java-Java17新特性-08-Java17新特性-精简数字格式化支持.md"/>
+                <toc-element topic="interview-java-Java17新特性-09-Java17新特性-Stream-toList.md"/>
+                <toc-element topic="interview-java-Java17新特性-10-Java17新特性-新的macOS渲染管道.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
