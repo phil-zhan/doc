@@ -99,6 +99,10 @@ set hive.fetch.task.conversion=none;
 --     at org.apache.hadoop.hive.ql.exec.tez.MapRecordSource.pushRecord(MapRecordSource.java:80)
 --     at org.apache.hadoop.hive.ql.exec.tez.MapRecordProcessor.run(MapRecordProcessor.java:426)
 set hive.fetch.task.conversion=none;
+
+
+-- 强制外表变成内表
+ALTER TABLE tmp_zfw.tmp1 SET TBLPROPERTIES ('EXTERNAL'='FALSE');
 ```
 
 ## hive函数 {id="hive_3"}
