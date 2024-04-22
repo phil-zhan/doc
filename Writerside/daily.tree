@@ -14,7 +14,9 @@
         <toc-element topic="phil-百万级excel数据导入数据库.md"/>
         <toc-element topic="phil-CPU标高.md"/>
         <toc-element topic="phil-内存标高.md"/>
-        <toc-element topic="phil-Aigc-MidJourney.md"/>
+        <toc-element topic="phil-Aigc-MidJourney.md">
+            <toc-element topic="phil-aigc-MidJourney创意提示词.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="work.md">
         <toc-element topic="work-Hive.md"/>
