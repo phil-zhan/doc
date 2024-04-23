@@ -108,11 +108,9 @@
 
 
 ### 8. 多肉植物
-cute mini Haworthia cymbiformis plant in a pot 
-
-
 
 cute mini Aloe plant in a pot
+
 ![image_13.png](image_13.png)
 
 
