@@ -75,3 +75,60 @@
 ![3D卡通字.png](3D卡通字.png)
 
 ![3D卡通字-2.png](3D卡通字-2.png)
+
+### 6. 手办
+> product photography,Stormtrooper, plastic, toy ,white background, studio lighting ,hand painted
+> {style="note"}
+
+![手办-风暴兵.png](手办-风暴兵.png)
+
+
+> product photography,Blue-Eyes White Dragon, plastic, toy ,white background, studio lighting ,hand painted
+> {style="note"}
+
+![手办-暴风龙.png](手办-暴风龙.png)
+
+
+> product photography, Japanese Style,Joan of Arc, full body, hand painted, plastic, detailed, white background, studio lighting
+> {style="note"}
+
+![手办-人物.png](手办-人物.png)
+
+
+### 7. 食物
+> food photography ,steak, medium rare, steaming, light garnishes, sitting on plate ,epic lighting,depth of field
+> {style="note"}
+
+![食物-牛排.png](食物-牛排.png)
+
+> food photography ,Beef noodle soup, put in a bowl, with steam,steaming, light garnishes ,epic lighting,depth of field 
+> {style="note"}
+
+![食物-牛肉面.png](食物-牛肉面.png)
+
+
+### 8. 多肉植物
+cute mini Haworthia cymbiformis plant in a pot 
+
+
+
+cute mini Aloe plant in a pot
+![image_13.png](image_13.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
