@@ -1,6 +1,7 @@
-# phil-aigc-MidJourney创意提示词
+# phil-AiGc-MidJourney创意提示词
 
 ### 1.创意水果摄影
+
 > 「水果」的排列，优雅的平衡，西班牙式的，拼贴式的，创造性的极简主义平角摄影，「配色」  
 > {style="note"}
 
@@ -22,6 +23,7 @@
 ![水果和香蕉-2-20240422.png](水果和香蕉-2-20240422.png)
 
 ### 2.充气字效
+
 > 「水果」的排列，优雅的平衡，西班牙式的，拼贴式的，创造性的极简主义平角摄影，「配色」  
 > Floating typography | MOOD: dreamy | SCENE: The Inflatable [number 0-9] appears to float in the air against a [color] background, 3D typography design. The overall aesthetic is ethereal and dreamy, with a soft, Holographic finish on the typography. --ar 9:16 --s 750 --v 6.0 --style raw  
 > {style="note"}
@@ -41,6 +43,7 @@
 ![充气数字-4-20240422.png](充气数字-4-20240422.png)
 
 ### 3. 3D-卡通字
+
 > [A description of the content of the picture], hyper-realistic, Digital rendering, [color], Sony Alpha a7R IV,61-megapixel sensor, 32k, sharp focus , minimalcore, photorealistic, stock image –ar 16:9 –s 750 –v 5.1  
 > 「一段关于画面内容的描述」，超现实, 数字渲染, [颜色], 索尼 Alpha a7R IV,6100 万像素传感器, 32k, 锐利的焦点 , 极简核心, 写实, 库存图片 –ar 16:9 –s 750 –v 5.1
 > {style="note"}
@@ -77,6 +80,7 @@
 ![3D卡通字-2.png](3D卡通字-2.png)
 
 ### 6. 手办
+
 > product photography,Stormtrooper, plastic, toy ,white background, studio lighting ,hand painted
 > {style="note"}
 
@@ -96,12 +100,13 @@
 
 
 ### 7. 食物
+
 > food photography ,steak, medium rare, steaming, light garnishes, sitting on plate ,epic lighting,depth of field
 > {style="note"}
 
 ![食物-牛排.png](食物-牛排.png)
 
-> food photography ,Beef noodle soup, put in a bowl, with steam,steaming, light garnishes ,epic lighting,depth of field 
+> food photography ,Beef noodle soup, put in a bowl, with steam,steaming, light garnishes ,epic lighting,depth of field
 > {style="note"}
 
 ![食物-牛肉面.png](食物-牛肉面.png)
@@ -112,7 +117,6 @@
 cute mini Aloe plant in a pot
 
 ![image_13.png](image_13.png)
-
 
 
 
