@@ -7,3 +7,4 @@
 **[phil-CPU标高](phil-CPU标高.md)**  
 **[phil-内存标高](phil-内存标高.md)**  
 **[phil-Scala](phil-Scala.md)**  
+**[phil-AiGc](phil-AiGc-ChatGPT.md)**  
