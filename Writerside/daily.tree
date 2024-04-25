@@ -6,6 +6,11 @@
                   name="发哥" start-page="phil-CPU标高.md">
 
     <toc-element topic="phil.md">
+        <toc-element topic="phil-AiGc.md">
+            <toc-element topic="phil-AiGc-MidJourney创意提示词.md"/>
+            <toc-element topic="phil-AiGc-ChatGPT.md"/>
+            <toc-element topic="phil-AiGc-MidJourney.md"/>
+        </toc-element>
         <toc-element topic="phil-Scala.md">
             <toc-element topic="phil-Scala-Scala语法基础.md"/>
         </toc-element>
@@ -14,10 +19,6 @@
         <toc-element topic="phil-百万级excel数据导入数据库.md"/>
         <toc-element topic="phil-CPU标高.md"/>
         <toc-element topic="phil-内存标高.md"/>
-        <toc-element topic="phil-Aigc-MidJourney.md">
-            <toc-element topic="phil-aigc-ChatGPT.md"/>
-            <toc-element topic="phil-aigc-MidJourney创意提示词.md"/>
-        </toc-element>
     </toc-element>
     <toc-element topic="work.md">
         <toc-element topic="work-Hive.md"/>

@@ -19,4 +19,8 @@
         </description>
         <accepts>Empty-MD-TopicEmpty-MD-TopicEmpty-MD-TopicEmpty-MD-Topic.html</accepts>
     </rule>
+    <rule id="26654865">
+        <description>Created after removal of "xx" from 发哥</description>
+        <accepts>xx.html</accepts>
+    </rule>
 </rules>
