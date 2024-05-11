@@ -78,3 +78,8 @@ mkdir -p /home/export/tmp/hadoop/hdfs
 
 ```
 
+### 统计文件个数
+```Shell
+hdfs dfs -ls -R /user/hive/warehouse/intelligence_pre.db/dwd_threat_intelligence_evidence_data_dt/dt=20240508 | grep -v '^d' | wc -l
+```
+

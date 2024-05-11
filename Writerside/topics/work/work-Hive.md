@@ -103,6 +103,7 @@ set hive.fetch.task.conversion=none;
 
 -- 强制外表变成内表
 ALTER TABLE tmp_zfw.tmp1 SET TBLPROPERTIES ('EXTERNAL'='FALSE');
+ALTER TABLE lab01_inbound_dwd.dwd_scene_whitelist_dt SET TBLPROPERTIES ('EXTERNAL'='FALSE','TRANSLATED_TO_EXTERNAL'='FALSE','external.table.purge'='false');
 ```
 
 ## hive函数 {id="hive_3"}
