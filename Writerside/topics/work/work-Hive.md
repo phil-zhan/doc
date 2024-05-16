@@ -104,6 +104,13 @@ set hive.fetch.task.conversion=none;
 -- 强制外表变成内表
 ALTER TABLE tmp_zfw.tmp1 SET TBLPROPERTIES ('EXTERNAL'='FALSE');
 ALTER TABLE lab01_inbound_dwd.dwd_scene_whitelist_dt SET TBLPROPERTIES ('EXTERNAL'='FALSE','TRANSLATED_TO_EXTERNAL'='FALSE','external.table.purge'='false');
+
+
+
+-- 大数据中的锁
+-- OVERWRITE会出发排它锁，慎用
+-- 可能的话用 INTO
+-- 需要 OVERWRITE的话，删除分区再 INTO
 ```
 
 ## hive函数 {id="hive_3"}
