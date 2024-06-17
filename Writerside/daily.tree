@@ -22,7 +22,9 @@
     </toc-element>
     <toc-element topic="work.md">
         <toc-element topic="work-Hive.md"/>
-        <toc-element topic="work-Elasticsearch.md"/>
+        <toc-element topic="work-Elasticsearch.md">
+            <toc-element topic="work-elasticsearch-reindex.md"/>
+        </toc-element>
         <toc-element topic="work-Other.md"/>
         <toc-element topic="work-Hadoop.md"/>
         <toc-element topic="work-Shell.md"/>
