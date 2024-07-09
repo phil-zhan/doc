@@ -22,11 +22,10 @@
     </toc-element>
     <toc-element topic="electronic-business.md">
         <toc-element topic="202407.md">
-            <toc-element topic="20240705.md"/>
             <toc-element topic="20240702.md"/>
-            <toc-element topic="20240707.md">
-            </toc-element>
+            <toc-element topic="20240705.md"/>
             <toc-element topic="20240706.md"/>
+            <toc-element topic="20240707.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="work.md">
