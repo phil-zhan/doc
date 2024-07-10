@@ -21,6 +21,7 @@
         <toc-element topic="phil-内存标高.md"/>
     </toc-element>
     <toc-element topic="work.md">
+        <toc-element topic="work-docker.md"/>
         <toc-element topic="work-Hive.md"/>
         <toc-element topic="work-Elasticsearch.md">
             <toc-element topic="work-elasticsearch-reindex.md"/>
@@ -29,6 +30,9 @@
         <toc-element topic="work-Hadoop.md"/>
         <toc-element topic="work-Shell.md"/>
         <toc-element topic="work-Account.md"/>
+        <toc-element topic="work-doc.md">
+            <toc-element topic="work-doc-threat-analysis.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="interview.md">
         <toc-element topic="interview-big_data.md"/>
