@@ -16,6 +16,27 @@ firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="10.
 
 ```
 
+
+```shell
+# 编辑配置文件
+vim /etc/sysconfig/iptables
+
+
+# 开放端口
+-A INPUT -s 1.1.1.1 -p tcp -m tcp --dport 9200 -m comment --comment "accept es ipi" -j ACCEPT
+
+# 开放IP
+-A INPUT -s 1.1.1.1 -p tcp -m tcp -m comment --comment "accept es ipi" -j ACCEPT
+
+# 开放CIDR
+-A INPUT -p tcp -s 1.1.1.0/24 --dport 9200 -j ACCEPT -m comment --comment "accept es port "
+
+
+
+# 重启服务
+systemctl restart iptables
+```
+
 ## curl 下载文件
 
 ```shell
