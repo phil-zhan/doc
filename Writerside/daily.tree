@@ -6,6 +6,7 @@
                   name="发哥" start-page="phil-CPU标高.md">
 
     <toc-element topic="phil.md">
+        <toc-element topic="01network-proxy.md"/>
         <toc-element topic="phil-AiGc.md">
             <toc-element topic="phil-AiGc-MidJourney创意提示词.md"/>
             <toc-element topic="phil-AiGc-ChatGPT.md"/>
